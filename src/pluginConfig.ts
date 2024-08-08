@@ -1,16 +1,16 @@
 import type { ExternalPluginConfig } from '@windy/interfaces';
 
 const config: ExternalPluginConfig = {
-    name: 'windy-plugin-my-plugin',
+    name: 'windy-plugin-windmill-overlay',
     version: '0.1.0',
-    icon: '🔌',
-    title: 'This is my first plugin',
-    description: 'This is my first plugin.',
-    author: 'John Doe (optional company name)',
-    repository: 'https://github.com/windycom/windy-plugin-template',
-    desktopUI: 'rhpane',
-    mobileUI: 'fullscreen',
-    routerPath: '/my-plugin',
+    icon: '💨',
+    title: 'Windmill Overlay',
+    description: 'Show windmills on Windy map.',
+    author: 'DuckSoft',
+    repository: 'https://github.com/DuckSoft/windy-plugin-windmill-overlay',
+    desktopUI: 'embedded',
+    mobileUI: 'small',
+    routerPath: '/windmill-overlay',
 };
 
 export default config;
