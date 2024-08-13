@@ -2,7 +2,7 @@ import type { ExternalPluginConfig } from '@windy/interfaces';
 
 const config: ExternalPluginConfig = {
     name: 'windy-plugin-windmill-overlay',
-    version: '0.1.0',
+    version: '0.1.1',
     icon: '💨',
     title: 'Windmill Overlay',
     description: 'Show windmills on Windy map.',
